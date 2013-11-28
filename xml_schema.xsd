@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="major">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="rating_person"/>
+        <xs:element name="major_recommondation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="major_media_apps"/>
+              <xs:element type="xs:string" name="major_corporate_communications"/>
+              <xs:element type="xs:string" name="major_event"/>
+              <xs:element type="xs:string" name="major_tv"/>
+              <xs:element type="xs:string" name="major_radio"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+<!--<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="rating_person" type="xs:string"/>
+<xs:element name="major_media_apps" type="xs:byte"/>
+<xs:element name="major_corporate_communications" type="xs:byte"/>
+<xs:element name="major_event" type="xs:byte"/>
+<xs:element name="major_tv" type="xs:byte"/>
+<xs:element name="major_radio" type="xs:byte"/>
+ 
+<xs:element name="major_recommondation">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="major_media_apps"/>
+			<xs:element ref="major_corporate_communications"/>
+			<xs:element ref="major_event"/>
+			<xs:element ref="major_tv"/>
+			<xs:element ref="major_radio"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="major">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="rating_person"/>
+      <xs:element ref="major_recommondation"/>
+    </xs:sequence>
+
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>-->
